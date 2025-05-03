@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="stopTokenSource" targetName="run_tests" />
+      <config projectName="stopTokenSource" targetName="Catch2WithMain" />
+      <config projectName="stopTokenSource" targetName="unit_tests" />
+      <config projectName="stopTokenSource" targetName="Catch2" />
+      <config projectName="stopTokenSource" targetName="stopTokenSource" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Release-MinGW (2)" ENABLED="true" CONFIG_NAME="Release" TOOLCHAIN_NAME="MinGW (2)" />
+      <configuration PROFILE_NAME="WSL" ENABLED="true" CONFIG_NAME="Release" TOOLCHAIN_NAME="WSL" />
+      <configuration PROFILE_NAME="Debug-MinGW (2)" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW (2)" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e72e33d7-5bb4-44da-b608-47b6103e339e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1lab/ex1/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1lab/ex1/src/ArchiveCreator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1lab/ex1/src/ArchiveCreator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1lab/ex1/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1lab/ex2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1lab/ex2/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1lab/ex2/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1lab/ex2/src/Extractor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1lab/ex2/src/Extractor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1lab/exAmdal/amdal.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex1/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex1/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex1/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex1/src/Controller/GameLifeController.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex1/src/Controller/GameLifeController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex1/src/Model/GameLife.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex1/src/Model/GameLife.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex1/src/View/GameLifeView.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex1/src/View/GameLifeView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex2/assets/font/arialmt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex2/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex2/src/Controller/GaussianBlurController.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex2/src/Controller/GaussianBlurController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex2/src/Model/GaussianBlur.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex2/src/Model/GaussianBlur.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex2/src/View/GaussianBlurView.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex2/src/View/GaussianBlurView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex2/src/View/ImageSelector/ImageSelector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex2/src/View/ImageSelector/ImageSelector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex2/src/View/Slider/Slider.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/ex2/src/View/Slider/Slider.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/examen/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/examen/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/cmake/AddCatch2.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/src/Bank/Bank.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/src/Bank/Bank.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/src/Players/Apu.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/src/Players/BartLisa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/src/Players/BaseCitizen.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/src/Players/Burns.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/src/Players/Homer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/src/Players/ICitizen.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/src/Players/Marge.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/src/Players/players.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/src/Players/utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/src/Simulation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/tests/BankTests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank/tests/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/src/Bank/Bank.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/src/Bank/Bank.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/src/Players/Apu.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/src/Players/BartLisa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/src/Players/BaseCitizen.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/src/Players/Burns.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/src/Players/Homer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/src/Players/ICitizen.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/src/Players/Marge.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/src/Players/Nelson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/src/Players/Smithers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/src/Players/Snake.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/src/Players/players.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/src/Players/utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/bank2/src/Simulation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/warehouse/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/warehouse/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/warehouse/src/Threads.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/warehouse/src/Warehouse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/player/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/player/cmake-build-debug-mingw-2/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/player/cmake-build-debug-mingw-2/libportaudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/player/cmake-build-release-mingw-2/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/player/cmake-build-release-mingw-2/libportaudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/player/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/player/src/AudioPlayer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/player/src/Melody.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/player/src/Note.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/AtomicMax/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/AtomicMax/cmake/AddCatch2.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/AtomicMax/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/AtomicMax/src/AtomicMax.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/AtomicMax/test/AtomicMaxTests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/AtomicMax/test/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/StopTokenSource/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/StopTokenSource/cmake/AddCatch2.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/StopTokenSource/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/StopTokenSource/src/StopControl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/StopTokenSource/src/StopControl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/StopTokenSource/test/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/StopTokenSource/test/StopTokenSourceTests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/ThreadPool/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/ThreadPool/cmake/AddCatch2.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/ThreadPool/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/ThreadPool/src/LockFreeQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/ThreadPool/src/ThreadPool.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/ThreadPool/src/ThreadPool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/ThreadPool/test/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/ThreadPool/test/PerformanceTests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/ThreadPool/test/ThreadPoolTests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/TicketOffice/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/TicketOffice/cmake/AddCatch2.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/TicketOffice/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/TicketOffice/src/TicketOffice.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/TicketOffice/src/TicketOffice.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/TicketOffice/test/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/TicketOffice/test/TicketOfficeTests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework/FLAC" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework/FLAC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework/Resources" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework/Resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework/OpenAL" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework/OpenAL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework/Resources" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework/Resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework/Resources" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework/Resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework/freetype" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework/freetype" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework/Resources" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework/Resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework/ogg" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework/ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework/Resources" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework/Resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework/vorbis" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework/vorbis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework/Resources" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework/Resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework/vorbisenc" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework/vorbisenc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework/Resources" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework/Resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework/vorbisfile" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework/vorbisfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework/FLAC" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework/FLAC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework/Resources" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework/Resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework/OpenAL" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework/OpenAL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework/Resources" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework/Resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework/Resources" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework/Resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework/freetype" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework/freetype" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework/Resources" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework/Resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework/ogg" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework/ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework/Resources" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework/Resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework/vorbis" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework/vorbis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework/Resources" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework/Resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework/vorbisenc" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework/vorbisenc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework/Resources" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework/Resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework/vorbisfile" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework/vorbisfile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:WSL" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2sj9GAsb0awgMGq17nPU20GkZVS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CMake Application.bank.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.extract-files.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.game-life.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.gaussian-blur.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.make-archive.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.player.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.semaphore.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.stopTokenSource.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.warehouse.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.advertisement.text.has.clang-format&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;ctest.advertisement.all.test.configuration.is.created&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/iSpring/StudyPP/lab6/ThreadPool&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C/C++&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\iSpring\StudyPP\lab6\ThreadPool" />
+      <recent name="C:\iSpring\StudyPP\lab6\StopTokenSource" />
+      <recent name="C:\iSpring\StudyPP\lab6\AtomicMax" />
+      <recent name="C:\iSpring\StudyPP\lab6\test" />
+      <recent name="C:\iSpring\StudyPP\lab6" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\iSpring\StudyPP\lab6\TicketOffice" />
+      <recent name="C:\iSpring\StudyPP\lab3\bank\src\Players" />
+      <recent name="C:\iSpring\StudyPP\lab2\ex1\src\Model" />
+      <recent name="C:\iSpring\StudyPP\lab2\ex2\src\View" />
+      <recent name="C:\iSpring\StudyPP\lab2\ex2\src\GaussianBlur" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.stopTokenSource">
+    <configuration name="unit_tests" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stopTokenSource" TARGET_NAME="unit_tests" CONFIG_NAME="WSL" RUN_TARGET_PROJECT_NAME="stopTokenSource" RUN_TARGET_NAME="unit_tests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Catch2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stopTokenSource" TARGET_NAME="Catch2" CONFIG_NAME="WSL">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Catch2WithMain" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stopTokenSource" TARGET_NAME="Catch2WithMain" CONFIG_NAME="WSL">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bank" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="10000 parallel" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stopTokenSource" TARGET_NAME="bank" CONFIG_NAME="Release-MinGW (2)" RUN_TARGET_PROJECT_NAME="stopTokenSource" RUN_TARGET_NAME="bank">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="extract-files" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-P 6 ~/1 ~/2 ~/3 ~/4 ~/5 ~/6 ~/7 ~/8 ~/9 ~/10" REDIRECT_INPUT="false" ELEVATE="true" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stopTokenSource" TARGET_NAME="extract-files" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="stopTokenSource" RUN_TARGET_NAME="extract-files">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="game-life" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="visualize Game.txt 16 GameNext.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stopTokenSource" TARGET_NAME="game-life" CONFIG_NAME="WSL" RUN_TARGET_PROJECT_NAME="stopTokenSource" RUN_TARGET_NAME="game-life">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gaussian-blur" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="sas2.png sas3.png 20 8 --visualize" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stopTokenSource" TARGET_NAME="gaussian-blur" CONFIG_NAME="Release-MinGW (2)" RUN_TARGET_PROJECT_NAME="stopTokenSource" RUN_TARGET_NAME="gaussian-blur">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="make-archive" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-P 6 /home/gleb.paybarshev/sample.png /home/gleb.paybarshev/sample_1.png /home/gleb.paybarshev/sample_2.png" REDIRECT_INPUT="false" ELEVATE="true" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stopTokenSource" TARGET_NAME="make-archive" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="stopTokenSource" RUN_TARGET_NAME="make-archive">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="player" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="example.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stopTokenSource" TARGET_NAME="player" CONFIG_NAME="Release-MinGW (2)" RUN_TARGET_PROJECT_NAME="stopTokenSource" RUN_TARGET_NAME="player">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stopTokenSource" TARGET_NAME="run_tests" CONFIG_NAME="WSL">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stopTokenSource" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stopTokenSource" TARGET_NAME="stopTokenSource" CONFIG_NAME="Release-MinGW (2)" RUN_TARGET_PROJECT_NAME="stopTokenSource" RUN_TARGET_NAME="stopTokenSource">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="warehouse" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="2 3 1" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stopTokenSource" TARGET_NAME="warehouse" CONFIG_NAME="Release-MinGW (2)" RUN_TARGET_PROJECT_NAME="stopTokenSource" RUN_TARGET_NAME="warehouse">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All CTest" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" CONFIG_NAME="WSL" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Catch.unit_tests" />
+      <item itemvalue="CMake Application.Catch2WithMain" />
+      <item itemvalue="CMake Application.Catch2" />
+      <item itemvalue="CMake Application.bank" />
+      <item itemvalue="CMake Application.extract-files" />
+      <item itemvalue="CMake Application.game-life" />
+      <item itemvalue="CMake Application.gaussian-blur" />
+      <item itemvalue="CMake Application.make-archive" />
+      <item itemvalue="CMake Application.player" />
+      <item itemvalue="CMake Application.run_tests" />
+      <item itemvalue="CMake Application.stopTokenSource" />
+      <item itemvalue="CMake Application.warehouse" />
+      <item itemvalue="CTest Application.All CTest" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e72e33d7-5bb4-44da-b608-47b6103e339e" name="Changes" comment="" />
+      <created>1738958018820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738958018820</updated>
+      <workItem from="1738958020952" duration="11401000" />
+      <workItem from="1738996980465" duration="3919000" />
+      <workItem from="1739165521420" duration="24000" />
+      <workItem from="1739596831201" duration="9910000" />
+      <workItem from="1739735082623" duration="32000" />
+      <workItem from="1739827918967" duration="7720000" />
+      <workItem from="1739835937328" duration="4014000" />
+      <workItem from="1739863914795" duration="1323000" />
+      <workItem from="1740068264313" duration="2467000" />
+      <workItem from="1740167768229" duration="2094000" />
+      <workItem from="1740474819567" duration="624000" />
+      <workItem from="1740475984013" duration="5445000" />
+      <workItem from="1740557740202" duration="2057000" />
+      <workItem from="1740671797346" duration="16540000" />
+      <workItem from="1740720932489" duration="9000" />
+      <workItem from="1740806777873" duration="7263000" />
+      <workItem from="1740814260470" duration="23000" />
+      <workItem from="1741154756994" duration="2889000" />
+      <workItem from="1741161053696" duration="3570000" />
+      <workItem from="1741980344374" duration="11414000" />
+      <workItem from="1742237064214" duration="139000" />
+      <workItem from="1742238802048" duration="644000" />
+      <workItem from="1742405463546" duration="1166000" />
+      <workItem from="1742406654889" duration="5548000" />
+      <workItem from="1742413689528" duration="5397000" />
+      <workItem from="1742590587371" duration="32195000" />
+      <workItem from="1742793974216" duration="3101000" />
+      <workItem from="1742800092812" duration="53000" />
+      <workItem from="1742808646993" duration="113000" />
+      <workItem from="1742809115306" duration="183000" />
+      <workItem from="1742831603879" duration="5455000" />
+      <workItem from="1743143186281" duration="40000" />
+      <workItem from="1743187050912" duration="6239000" />
+      <workItem from="1743238886777" duration="1890000" />
+      <workItem from="1743243647986" duration="94000" />
+      <workItem from="1743358817335" duration="21000" />
+      <workItem from="1743365283476" duration="180000" />
+      <workItem from="1743437465102" duration="41000" />
+      <workItem from="1743680650289" duration="4000" />
+      <workItem from="1743680665488" duration="613000" />
+      <workItem from="1743687297680" duration="595000" />
+      <workItem from="1745444320009" duration="1160000" />
+      <workItem from="1745445499693" duration="20504000" />
+      <workItem from="1745777044186" duration="156000" />
+      <workItem from="1746214975018" duration="7896000" />
+      <workItem from="1746258041701" duration="320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/lab3/bank/src/Players/Homer.h</url>
+          <line>28</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/lab3/bank/src/Players/Apu.h</url>
+          <line>19</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/lab3/bank2/src/Players/players.h</url>
+          <line>3</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/lab4/player/src/Note.h</url>
+          <line>25</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="match.std::vector&lt;std::__cxx11::sub_match&lt;__gnu_cxx::__normal_iterator&lt;char const*, std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt;, std::allocator&lt;std::__cxx11::sub_match&lt;__gnu_cxx::__normal_iterator&lt;char const*, std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt; &gt; &gt;" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

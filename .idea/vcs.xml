@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab2/ex1/cmake-build-wsl/_deps/sfml-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab2/ex2/cmake-build-release-mingw-2/_deps/sfml-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab2/ex2/cmake-build-wsl/_deps/sfml-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab3/bank/cmake-build-debug-mingw-2/_deps/catch2-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab3/bank/cmake-build-release-mingw-2/_deps/catch2-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab3/bank/cmake-build-wsl/_deps/catch2-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab4/player/cmake-build-debug-mingw-2/_deps/portaudio-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab4/player/cmake-build-release-mingw-2/_deps/portaudio-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab4/player/cmake-build-wsl/_deps/portaudio-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab6/AtomicMax/cmake-build-debug-mingw-2/_deps/catch2-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab6/AtomicMax/cmake-build-release-mingw-2/_deps/catch2-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab6/AtomicMax/cmake-build-wsl/_deps/catch2-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab6/StopTokenSource/cmake-build-debug-mingw-2/_deps/catch2-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab6/StopTokenSource/cmake-build-release-mingw-2/_deps/catch2-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab6/StopTokenSource/cmake-build-wsl/_deps/catch2-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab6/ThreadPool/cmake-build-wsl/_deps/catch2-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab6/TicketOffice/cmake-build-debug-mingw-2/_deps/catch2-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab6/TicketOffice/cmake-build-release-mingw-2/_deps/catch2-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab6/TicketOffice/cmake-build-wsl/_deps/catch2-src" vcs="Git" />
+  </component>
+</project>
