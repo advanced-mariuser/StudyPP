@@ -2,7 +2,6 @@
 #include "src/StopControl.h"
 #include <thread>
 #include <chrono>
-#include <tbb/concurrent_vector.h>
 
 using namespace std::chrono_literals;
 

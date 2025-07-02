@@ -3,81 +3,63 @@
 #include <boost/asio/thread_pool.hpp>
 #include <boost/asio/post.hpp>
 #include <chrono>
-#include <vector>
 #include <atomic>
 #include <iostream>
 #include <mutex>
+#include <fstream>
 
 using namespace std::chrono;
 
-template<typename Pool>
-void run_benchmark(const std::string& name, Pool& pool, int tasks)
+void RunBenchmark(const std::string& name, int threadCount, int taskCount, std::ostream& csv)
 {
     std::atomic<int> counter{0};
-    auto start = high_resolution_clock::now();
 
-    for (int i = 0; i < tasks; ++i)
+    // Lock-Free
+    auto lfStart = high_resolution_clock::now();
     {
-        pool.enqueue([&]
-                     { counter++; });
-    }
+        ThreadPool pool(threadCount);
+        for (int i = 0; i < taskCount; ++i)
+        {
+            //Везде увеличивать атомарную переменную
+            pool.Enqueue([&]
+                         { counter.fetch_add(1, std::memory_order_relaxed); });
+        }
 
-    // Wait for completion
-    while (counter < tasks)
+        while (pool.TasksPending() > 0)
+        {
+            std::this_thread::yield();
+        }
+    }
+    auto lfDuration = duration_cast<milliseconds>(high_resolution_clock::now() - lfStart).count();
+
+    // boost::asio
+    auto asioStart = high_resolution_clock::now();
     {
-        std::this_thread::yield();
+        boost::asio::thread_pool asioPool(threadCount);
+        for (int i = 0; i < taskCount; ++i)
+        {
+            boost::asio::post(asioPool, [&]
+            {counter.fetch_add(1, std::memory_order_relaxed);});
+        }
+        asioPool.join();
     }
+    auto asioDuration = duration_cast<milliseconds>(high_resolution_clock::now() - asioStart).count();
 
-    auto end = high_resolution_clock::now();
-    auto duration = duration_cast<milliseconds>(end - start).count();
-
-    std::cout << name << " completed " << tasks
-              << " tasks in " << duration << "ms\n";
+    csv << threadCount << "," << lfDuration << "," << asioDuration << "\n";
 }
 
-TEST_CASE("Performance comparison")
+TEST_CASE("Performance CSV output")
 {
-    constexpr int tasks = 100000;
-    constexpr int min_threads = 1;
-    const int max_threads = 2 * std::thread::hardware_concurrency();
+    int taskCount = 1'600'000;
+    const int maxThreads = 2 * static_cast<int>(std::thread::hardware_concurrency());
 
-    std::cout << "Performance comparison (" << tasks << " tasks)\n";
-    std::cout << "Threads,LockFree,LockBased,Asio\n";
+    std::ofstream csv("performance.csv");
+    csv << "Threads,LockFree,BoostAsio\n";
 
-    for (int threads = min_threads; threads <= max_threads; ++threads)
+    for (int t = 1; t <= maxThreads; ++t)
     {
-        // Lock-free ThreadPool
-        auto lf_start = high_resolution_clock::now();
-        {
-            ThreadPool lf_pool(threads);
-            run_benchmark("LockFree", lf_pool, tasks);
-        }
-        auto lf_duration = duration_cast<milliseconds>(
-                high_resolution_clock::now() - lf_start).count();
-
-        // Lock-based ThreadPool (similar implementation but with mutex)
-        auto lb_start = high_resolution_clock::now();
-        {
-            // LockBasedThreadPool lb_pool(threads);
-            // run_benchmark("LockBased", lb_pool, tasks);
-        }
-        auto lb_duration = 0; // Replace with actual measurement
-
-        // Boost.Asio thread_pool
-        auto asio_start = high_resolution_clock::now();
-        {
-            boost::asio::thread_pool asio_pool(threads);
-            for (int i = 0; i < tasks; ++i)
-            {
-                boost::asio::post(asio_pool, []
-                {});
-            }
-            asio_pool.join();
-        }
-        auto asio_duration = duration_cast<milliseconds>(
-                high_resolution_clock::now() - asio_start).count();
-
-        std::cout << threads << "," << lf_duration << ","
-                  << lb_duration << "," << asio_duration << "\n";
+        RunBenchmark("Benchmark", t, taskCount/t, csv);
     }
+
+    std::cout << "CSV results written to performance.csv\n";
 }

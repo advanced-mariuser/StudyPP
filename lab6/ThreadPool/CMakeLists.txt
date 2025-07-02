@@ -20,7 +20,7 @@ set(PROJECT_ROOT "${CMAKE_SOURCE_DIR}")
 
 file(GLOB_RECURSE SRC_FILES src/*.cpp src/*.h)
 
-add_executable(threadPool main.cpp ${SRC_FILES})
+add_executable(threadPool ${SRC_FILES})
 target_include_directories(threadPool PRIVATE src)
 target_compile_definitions(threadPool PRIVATE PROJECT_ROOT="${PROJECT_ROOT}")
 
